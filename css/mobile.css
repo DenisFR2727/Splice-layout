@@ -33,7 +33,7 @@
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      height: 30vh;
+      height: 40vh;
       transition: 5s all; }
     .container .header-top
 .container-menu .menu nav > ul li {
@@ -152,6 +152,8 @@
         flex-wrap: wrap; } }
 
 @media (max-width: 700px) {
+  .mobile-nav #mobile-menu-nav {
+    height: 40vh; }
   #block-click-mobile p {
     font-size: 12px; }
   #block-click-mobile .click a {
